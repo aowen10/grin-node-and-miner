@@ -35,7 +35,7 @@ run_tui = false
 stratum_server_addr = "us-east-stratum.grinmint.com:4416"
 
 # login for the stratum server (if required)
-stratum_server_login = "mischkeaa+someuser@gmail.com/vanities"
+stratum_server_login = "grin+corporate@coinmine.com/default"
 
 # password for the stratum server (if required)
 stratum_server_password = "some-password"
@@ -64,36 +64,6 @@ plugin_name = "ocl_cuckaroo"
 [mining.miner_plugin_config.parameters]
 platform = 0
 device = 0
-
-[[mining.miner_plugin_config]]
-plugin_name = "ocl_cuckaroo"
-[mining.miner_plugin_config.parameters]
-platform = 0
-device = 1
-
-[[mining.miner_plugin_config]]
-plugin_name = "ocl_cuckaroo"
-[mining.miner_plugin_config.parameters]
-platform = 0
-device = 2
-
-[[mining.miner_plugin_config]]
-plugin_name = "ocl_cuckaroo"
-[mining.miner_plugin_config.parameters]
-platform = 0
-device = 3
-
-[[mining.miner_plugin_config]]
-plugin_name = "ocl_cuckaroo"
-[mining.miner_plugin_config.parameters]
-platform = 0
-device = 4
-
-[[mining.miner_plugin_config]]
-plugin_name = "ocl_cuckaroo"
-[mining.miner_plugin_config.parameters]
-platform = 0
-device = 5
 
 # The fastest cpu algorithm, but consumes the most memory
 
